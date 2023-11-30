@@ -62,5 +62,11 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Logs window object
+console.log(window);
+
+// Logs reference to the document in the window object
+console.log(window.document);
+
 
 
